@@ -1,0 +1,97 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+  background-color: #1A8035;
+  width: 600px;
+  height: 500px;
+  border-radius: 25px;
+}
+
+.selecao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.unidade h2 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#valueInput1, #calcular {
+  height: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+#calcular {
+  background-color: #0b411a;
+  border: 2px solid;
+  color: #fff;
+  transition: 0.4s;
+}
+#calcular:hover {
+  background-color: #000;
+}
+
+#resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #4EFD7D;
+  font-size: 6rem;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=styles.css.map */
