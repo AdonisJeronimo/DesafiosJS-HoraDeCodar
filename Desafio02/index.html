@@ -14,15 +14,16 @@
 
 <body>
     <div class="calculator-container">
-            <div class="result">
-                <p>Seu imc é:</p>
-            </div>
-            <div class="calculator-content">
-                <h2>IMC</h2>
-                <input type="text" placeholder="Peso">
-                <input type="text" placeholder="Altura">
+            <div id="result">
+                
             </div>
 
+            <div class="calculator-content">
+                <h2>IMC = <span></span></h2>
+                <input type="text" id="weight" placeholder="Peso. Exemplo: 70">
+                <input type="text" id="height" placeholder="Altura. Exemplo: 175 cm" >
+                <input type="submit" id="calculate">
+            </div>
     </div>
 
     <script src="js/script.js"></script>
