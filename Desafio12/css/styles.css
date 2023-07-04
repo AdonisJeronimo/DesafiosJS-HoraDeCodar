@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #4B6C75;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
