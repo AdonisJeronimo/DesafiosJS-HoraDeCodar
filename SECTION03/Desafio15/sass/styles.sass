@@ -1,0 +1,84 @@
+html
+    font-size: 14px
+
+body
+    background-color: #4B6C75
+    display: flex
+    flex-direction: column
+    width: 100vw
+    height: 100vh
+    justify-content: center
+    align-items: center
+    position: relative
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Open Sans'
+    font-size: 1rem
+
+a
+    text-decoration: none
+    transition: .4s
+
+input
+    border: none
+    outline: none
+
+ul
+    list-style: none
+
+.container
+    width: 500px
+    height: 500px
+    background-color: #fff
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    border-radius: 20px
+
+    h1
+        font-size: 2rem
+        margin-bottom: 2rem
+
+    #number
+        text-align: center
+        background-color: #87BBC0
+        color: #fff
+        height: 50px
+        font-size: 1.5rem
+        transition: .3s
+        margin-bottom: 2rem
+
+        &:hover
+            transform: scale(120%)
+            border-radius: 20px
+
+    #submit
+        height: 35px
+        width: 175px
+        transition: .2s
+        background-color: #0C585C
+        border-radius: 5px
+        color: #fff
+        margin-bottom: 2rem
+
+        &:hover
+            cursor: pointer
+            transform: scale(98%)
+            background-color: #073336
+            border-radius: 10px
+
+    #result
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+        height: 200px
+        background-color: #E6E6E6
+        color: #000
+        font-weight: bold
+        font-size: 2rem
